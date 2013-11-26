@@ -3,8 +3,7 @@
   <head>
     <title>window.open Example</title>
 
-    <script type="text/javascript" charset="utf-8" src="cordova-x.x.x.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    <script>
 
     // Wait for device API libraries to load
     //
@@ -14,11 +13,25 @@
     //
     function onDeviceReady() {
         // external url
-        var ref = window.open(encodeURI('http://integration.visiooptik.fr'), '_self', 'location=no');
+        var ref = window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
+        // relative document
+        ref = window.open('next.html', '_self');
     }
 
     </script>
   </head>
   <body>
+  <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">h1.title</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
   </body>
 </html>
