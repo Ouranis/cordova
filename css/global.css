@@ -1,0 +1,251 @@
+/*
+        PrestaShop CSShttp://dev.oakipa.com/visiooptik1323/
+        18 used colors:
+        10 grays: #374853 #595a5e #5d717e #76839b #888 #d7dfe9 #d0d1d5 #a6bcd1 #e5e6e7 #f1f2f4
+        4 fushias: #f6dce8 red #971d58 #5d0630
+        2 yellows: #f8e1a0 #f9e400
+        1 green: #488c40
+        1 red: #da0f00
+        violet accessoires visiooptik : #b176ac
+        bleu lentilles visiooptik : #84c6e9
+        vert produits entretien visiooptik : #b9cf6a
+        bleu visioptik : #007abd
+*/
+/*************************MOBILE******************************/
+/*@media screen and (min-device-width:320px) and (max-device-width:480px)*/
+
+*{
+    padding: 0;
+    margin: 0
+}
+#footer_menu{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.head_block{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 3px 0;
+}
+#searchbox input[type="search"]{
+    position: absolute;
+    top: 4px;
+    right: 40px;
+    width: 16em;
+    height: 17px;
+}
+#searchbox input[type="submit"]{
+    background: transparent;
+    border: none;
+    cursor:pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    width: 40px;
+    line-height: 25px;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#bread_lentille{
+    background: #08aee6 url('../img/sprite_global.png') no-repeat 0px -127px;
+}
+#bread_entretien{
+    background: #8cc53f url('../img/sprite_global.png') no-repeat -116px -127px;
+}
+#bread_accessoire{
+    background: #9e63a7 url('../img/sprite_global.png') no-repeat -230px -127px;
+}
+#bread_pack{
+    background: #ed217c url('../img/sprite_global.png') no-repeat -344px -127px;
+}
+.bread_block{
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    margin: 0 13.3px;
+}
+    #title_mobile, #product_title, #order h2, #myaccount, .h2title, #password h2{
+        padding: 2%;
+        margin-bottom: 2%;
+        color: #fff;
+        background:#08aee6;
+    }
+    body{
+        font-family: Arial,Verdana,Helvetica,Sans-Serif;
+        text-align: center;
+        color: #789;
+    }
+    footer{
+        background: #333;
+        clear: both;
+    }
+    #footer_menu_button{
+        cursor: pointer;
+    }
+    #footer_menu{
+        clear: both;
+        background: #666;
+        padding: 1% 0;
+    }
+    #footer_menu li{
+        background: #333;
+        margin: 1% 0;
+        padding: 2% 0;
+        text-align: left;
+    }
+    #footer_menu a{
+        padding-left: 10%;
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    #page{
+        margin: 0 5px;
+    }
+    /* hidden */
+    #left_column, #right_column, #mobile_arianne, #header_user_info,
+    #fixed_corner, .footer_links, #head_account, #head_cart,#reinsurance_block,
+    #your_account, #order_step{
+        display: none;
+    }
+    /* header */
+    #head_home{
+        display: block;
+        width: 260px;
+        height: 70px;
+        z-index: 0;
+        background: url('../img/sprite_global.png') no-repeat -180px -20px;
+        font-size: 0;
+        text-indent:-5000px;
+    }
+    #searchbox{
+        display: inline-block;
+        background: #98b5ce;
+        position: absolute;
+        top: 42px;
+        bottom: 0;
+        left: 120px;
+        height: 0px;
+        right: 0;
+    }
+    #searchbox #search_query, #searchbox input[type="submit"]{
+        display: none;
+    }
+    .breadcrumb, #head_lentille, #head_entretien, #head_accessoire, #head_pack{
+        display: none;
+    }
+    #head_right{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        max-width: 220px;
+    }
+    header ul, header li, header p, #head_right a, #header_user{
+        display: inline-block;
+    }
+    #header_user{
+        background: #026fb0;
+        color: #fff;
+        height: 30px;
+        padding: 15px 13px;
+    }
+    #shopping_cart:before{
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        margin-left: 5px;
+        background: url('../img/sprite_global.png') no-repeat -948px -156px;
+        vertical-align: middle;
+        content: '';
+    }
+    .third_footer{
+        float: left;
+        width: 33.33%;
+        margin: 0;
+        display: block;
+        position: relative;
+        background: #333;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        height: 48px;
+        padding: 5px 0;
+    }
+    #home_footer{
+        margin: auto;
+        display: block;
+        width: 48px;
+        height: 48px;
+        background: #333 url('../img/sprite_global.png') no-repeat -682px -250px;
+    }
+    #account_footer{
+        margin: auto;
+        display: block;
+        width: 48px;
+        height: 48px;
+        background: #333 url('../img/sprite_global.png') no-repeat -412px -239px;
+    }
+    #help_footer{
+        margin: auto;
+        display: block;
+        width: 48px;
+        height: 48px;
+        background: #333 url('../img/sprite_global.png') no-repeat -625px -250px;
+    }
+    .mob_footer{
+        background: #333 url('../img/sprite_global.png') no-repeat -730px -272px;
+        display: block;
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        clear: both;
+        width: 250px;
+        margin: auto;
+        height: 30px;
+    }
+/**************************smartphone*******************/
+
+@media screen and (min-width:0px) and (max-width:480px)
+{
+    #head_home{
+        display: block;
+        width: 88px;
+        height: 70px;
+        z-index: 0;
+        background: url('../img/sprite_global.png') no-repeat -257px -20px;
+        line-height: 125px;
+        font-size: 0;
+        text-indent:-5000px;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+    }
+    #head_home:after{
+        content: "VisiOOptiK";
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        width: 88px;
+        height: 70px;
+        z-index: 0;
+        color: #026fb0;
+        line-height: 125px;
+        font-size: 14px;
+        text-indent:0px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+    }
+    .ajax_cart_quantity, .ajax_cart_product_txt, .ajax_cart_product_txt_s{
+        display: none !important;
+    }
+}
