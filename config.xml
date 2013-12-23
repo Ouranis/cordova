@@ -4,6 +4,7 @@
     <description>Cordova Application</description>
     <author email="contact@visiooptik.fr" href="http://www.visiooptik.fr">VisiOOptiK</author>
     <access origin="*"/>
+    <icon src="apple-touch-icon-72x72.png" />
     <preference name="fullscreen" value="true"/>
     <preference name="webviewbounce" value="true"/>
 </widget>
